@@ -1,0 +1,26 @@
+{
+  "name": "dsdt",
+  "version": "0.0.1",
+  "description": "Tool for compressing and decompressing dsd files. ",
+  "main": "./bin/index.js",
+  "files": [
+    "bin"
+  ],
+  "bin": {
+    "dsst": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Divine Star LLC",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^16.11.10",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "dscom": "^1.0.5",
+    "dsdata": "^1.0.32"
+  }
+}
